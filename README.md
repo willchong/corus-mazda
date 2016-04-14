@@ -1,3 +1,3 @@
-# corus-brick-goh
+# corus-mazda
 Author: William Chong
 Figure this out too.
