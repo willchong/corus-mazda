@@ -11,15 +11,15 @@
     <div class="container enter">
         <!-- @@include templates/header.html -->
         <div class="hero">
-            <img src="img/enter-hero.jpg" alt="">
+            <img src="img/homepage-hero.jpg" alt="">
         </div>
         <div id="your-information-section">
-            <h2>enter your information below</h2>
             <div class="fields">
+                <h2>enter your information below</h2>
                 <div id="personal-error-list"><ul></ul></div>
                 <br />
                 <label>Age:</label>
-                <input type="text" id="age" name="age" size="2" maxlength="2" />
+                <input type="text" id="age" name="age" />
                 <br />
                 <label>First Name:</label>
                 <input type="text" id="firstname" name="firstname" />
@@ -38,25 +38,42 @@
                 <input type="text" id="phone1" name="phone1" size="3" maxlength="3" class="multi" />
                 <input type="text" id="phone2" name="phone2" size="3" maxlength="3" class="multi" />
                 <input type="text" id="phone3" name="phone3" size="4" maxlength="4" />
-                <br />
                 <label>Email Address:</label>
                 <input type="text" id="email" name="email" />
-                <br />
                 <div id="rules-section">
                     <h3><span>Rules &amp; Regulations</span></h3>
+                     <input type="checkbox" id="readrules" name="readrules" />
+                    <label>I agree to be bound by the <a href="" target="_blank">Rules and Regulations</a> governing this contest and that the collection, use, and disclosure of any personal information entered above is governed by this website's <a href="" target="_blank">Privacy Policy</a>.</label>
+                    <br />
+                     <input type="checkbox" id="notemployee" name="notemployee" />
+                    <label>I confirm that I am not an employee of Mazda Canada, its dealers, agencies, prize suppliers or affiliates, nor an immediate family member of any of the above.</label>
                     <div id="rules-error-list"><ul></ul></div>
                     <br />
-                    <input type="checkbox" id="readrules" name="readrules" />
-                    <label>I have read the <a href="rules.pdf" target="_blank">rules and regulations</a>.</label>
                 </div>
                 <div id="optin-section">
                     <div id="extra-error-list"><ul></ul></div>
                     <br />
-                    <input type="checkbox" id="permission" name="permission" />
-                    Please tick this box to receive emails about special offers, new product launches and surveys from Dyson. Every email we send includes an unsubscribe link, so you can easily change your mind.
+                    <h3><span>Opt-in (Optional)</span></h3>
+                    <h4>EARN 5 BONUS ENTRIES BY OPTING IN!</h4>
+                    <input type="checkbox" id="contacted" name="contacted" />
+                    <label for="contacted">Yes, I would like to be contacted by email by Mazda Canada and its dealers to receive special offers, promotions, vehicle information and/or to book a test drive. You may later unsubscribe. You may contact Mazda by going to privacy@mazda.ca or by calling 1-866-864-3536 or by writing to us at: Privacy Office, 55 Vogell Road, Richmond Hill ON, L4B 3K5. Your consent is sought by Mazda Canada Inc. on its own behalf and on the behalf of its dealers.</label>
                     <br />
+                    <label for="vehicles">Which Mazda vehicle are you most interested in?</label>
+                    <select name="vehicles" id="vehicles">
+                        <option value="2016 Mazda3 – Compact Sedan">2016 Mazda3 – Compact Sedan</option>
+                        <option value="2016 Mazda3 Sport – Compact Hatch">2016 Mazda3 Sport – Compact Hatch</option>
+                        <option value="2016 Mazda5 – Multi-Activity Vehicle">2016 Mazda5 – Multi-Activity Vehicle</option>
+                        <option value="2016 Mazda6 – Mid-Size Sedan">2016 Mazda6 – Mid-Size Sedan</option>
+                        <option value="2016 CX-3 – 5-Seat Compact SUV">2016 CX-3 – 5-Seat Compact SUV</option>
+                        <option value="2016 CX-5 – 5-Seat SUV">2016 CX-5 – 5-Seat SUV</option>
+                        <option value="2016 CX-9 – 7-Seat SUV">2016 CX-9 – 7-Seat SUV</option>
+                        <option value="2016 MX-5 – 2-Seat Convertible">2016 MX-5 – 2-Seat Convertible</option>
+                    </select>
+                    <br />
+                    <input type="checkbox" id="dealer" name="dealer" />
+                    <label for="dealer">Yes, I would like a dealer to contact me.</label>
                 </div>
-                <p class="legal">Your privacy is important for us. Unless you have given us your information, we promise never to release your details to any outside company for marketing purposes. To read more on how your personal data is handled by dyson, read our <a href="" class="nav-button">privacy policy</a></p>
+                <!-- <p class="legal">Your privacy is important for us. Unless you have given us your information, we promise never to release your details to any outside company for marketing purposes. To read more on how your personal data is handled by dyson, read our <a href="" class="nav-button">privacy policy</a></p> -->
                 <a href="#" id="entry-button"><span>Enter Now!</span></a>
                 <br />
             </div>

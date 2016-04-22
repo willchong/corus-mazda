@@ -1,6 +1,7 @@
 footer {
 	text-align: center;
-	padding-bottom: 50px;
+	border-top: 2px solid black;
+	padding: 20px 20px 50px 20px;
 	.legal {
 		font-size: 0.8rem;
 		font-family: "Arial", sans-serif;
@@ -11,11 +12,20 @@ footer {
 			&:first-child {
 				img {
 					border-right: 2px solid #adadad;
+					@include breakpoint(special) {
+						// border-right: none;
+					}
 				}
 			}
 		}
 		img {
 			padding: 0 32px;
+		}
+		.mazda {
+			padding-left: 100px;
+			@include breakpoint(special) {
+				padding-left: 0;
+			}
 		}
 	}
 }

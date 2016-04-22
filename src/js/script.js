@@ -29,11 +29,6 @@ function getQueryVariable(variable)
 }
 
 $(document).ready(function() {
-
-	$('.products-carousel').slick({
-		slide: 'img',
-		arrows: false
-	});
 	
 	$(".nav-button").click(function(e) {
 	    e.preventDefault();
@@ -66,33 +61,14 @@ $(document).ready(function() {
 		$('.nav-button[data-link="enter"]').parent().addClass('underline');
 	}
 
+	$('#contacted').on('change', function() {
+		if ($(this).prop('checked')) {
+			$('#dealer,#vehicles,label[for="dealer"],label[for="vehicles"]').show();
+		} else {
+			$('#dealer,#vehicles,label[for="dealer"],label[for="vehicles"]').hide();
+		}
+	});
 
 
 });
-
-$('.products-carousel .prev').on('click', function() {
-
-	$('.products-carousel').slick('slickPrev');
-
-});
-
-$('.products-carousel .next').on('click', function() {
-
-	$('.products-carousel').slick('slickNext');
-
-});
-
-
-
-// $(window).on('resize', function() {
-
-// 	var resizedHeight = $('.video').width();
-// 	resizedHeight = resizedHeight*(635/992);
-// 	$('.video').css('height', resizedHeight);
-
-// 	var resizedWidth = $('.video').width();
-// 	resizedWidth = resizedWidth*(703/992);
-// 	$('.video-footer-container').css('width', resizedWidth);
-
-// });
 

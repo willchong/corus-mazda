@@ -1,20 +1,47 @@
-// @font-face {
-// 	font-family: 'futura-medium';
-// 	src: url('../fonts/Futura-Medium.eot');
-// 	src: url('../fonts/Futura-Medium.eot?#iefix') format('embedded-opentype'),
-// 		url('../fonts/Futura-Medium.woff') format('woff'),
-// 		url('../fonts/Futura-Medium.ttf') format('truetype'),
-// 		url('../fonts/Futura-Medium.svg#Futura-Medium') format('svg');
-// 	font-weight: 500;
-// 	font-style: normal;
-// }
-// @font-face {
-// 	font-family: 'futura';
-// 	src: url('../fonts/FuturaTOT-Book.eot');
-// 	src: url('../fonts/FuturaTOT-Book.eot?#iefix') format('embedded-opentype'),
-// 		url('../fonts/FuturaTOT-Book.woff') format('woff'),
-// 		url('../fonts/FuturaTOT-Book.ttf') format('truetype'),
-// 		url('../fonts/FuturaTOT-Book.svg#FuturaTOT-Book') format('svg');
-// 	font-weight: normal;
-// 	font-style: normal;
-// }
+@font-face {
+	font-family: 'Mazda';
+	src: url('../fonts/Mazda-Regular.eot');
+	src: url('../fonts/Mazda-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Mazda-Regular.woff2') format('woff2'),
+		url('../fonts/Mazda-Regular.woff') format('woff'),
+		url('../fonts/Mazda-Regular.ttf') format('truetype'),
+		url('../fonts/Mazda-Regular.svg#Mazda-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Mazda Bold';
+	src: url('../fonts/Mazda-Bold.eot');
+	src: url('../fonts/Mazda-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Mazda-Bold.woff2') format('woff2'),
+		url('../fonts/Mazda-Bold.woff') format('woff'),
+		url('../fonts/Mazda-Bold.ttf') format('truetype'),
+		url('../fonts/Mazda-Bold.svg#Mazda-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Interstate Condensed';
+	src: url('../fonts/Interstate-RegularCond.eot');
+	src: url('../fonts/Interstate-RegularCond.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Interstate-RegularCond.woff2') format('woff2'),
+		url('../fonts/Interstate-RegularCond.woff') format('woff'),
+		url('../fonts/Interstate-RegularCond.ttf') format('truetype'),
+		url('../fonts/Interstate-RegularCond.svg#Interstate-RegularCond') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Interstate';
+	src: url('../fonts/Interstate-Regular.eot');
+	src: url('../fonts/Interstate-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/Interstate-Regular.woff2') format('woff2'),
+		url('../fonts/Interstate-Regular.woff') format('woff'),
+		url('../fonts/Interstate-Regular.ttf') format('truetype'),
+		url('../fonts/Interstate-Regular.svg#Interstate-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

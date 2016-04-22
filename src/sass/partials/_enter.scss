@@ -34,24 +34,29 @@
 		}
 	}
 	#your-information-section {
-		border-top: 2px solid #dcdcdc;
 		width: 90%;
 		text-align: center;
-		font-size: 2.3rem;
+		font-size: 1.4rem;
 		margin: 0 auto;
+		h2 {
+			text-transform: uppercase;
+			font-size: 2.8rem;
+			margin-top: 28px;
+		}
 		.fields {
 			margin: 0 auto;
-			max-width: 570px;
+			max-width: 350px;
 			width: 100%;
 			text-align: left;
 			label {
 				width: 180px;
 				display: inline-block;
+				margin-bottom: 10px;
 			}
 			input {
 				height: 28px;
 				font-size: 2rem;
-				background-color: $lightgrey;
+				background-color: #dcdcdc;
 				border: 1px solid #989898;
 				width: 162px;
 				&[name="age"] {
@@ -76,31 +81,77 @@
 					width: auto;
 				}
 			}
+			select {
+				background: #dcdcdc;
+				width: 100%;
+				border: 1px solid $black;
+				// -webkit-appearance: none;
+				// -webkit-border-radius: 0px;
+				border-radius: 0px;
+				font-size: 1.6rem;
+			}
 		}
 		#rules-section {
-			margin-top: 40px;
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			h3 {
 				font-size: 2.8rem;
+				margin-top: 28px;
+				margin-bottom: 16px;
 				text-align: center;
+				text-transform: uppercase;
 			}
 			label {
-				width: auto;
-				margin-top: -14px;
-				vertical-align: middle;
+				width: 320px;
+				vertical-align: top;
+				margin-bottom: 12px;
 				a {
 					color: $black;
 					text-decoration: underline;
 				}
 			}
+			input {
+				vertical-align: top;
+				margin-top: -5px;
+				margin-right: 6px;
+			}
 		}
 		#optin-section {
 			margin-top: -14px;
-			font-size: 1.6rem;
+			font-size: 1.4rem;
 			margin-bottom: 40px;
+			h3 {
+				font-size: 2.8rem;
+				text-align: center;
+				text-transform: uppercase;
+			}
+			h4 {
+				text-align: center;
+				margin: 0 auto;
+			}
 			#permission {
 				top: 6px;
 				position: relative;
+			}
+			label {
+				width: 320px;
+				margin-bottom: 12px;
+			}
+			input {
+				vertical-align: top;
+				margin-top: -5px;
+				margin-right: 6px;
+			}
+			#dealer, #vehicles, label[for="dealer"],label[for="vehicles"] {
+				display: none;
+				margin-left: 22px;
+			}
+			label[for="dealer"] {
+				margin-left: 6px;
+			}
+			#vehicles {
+				width: 300px;
+				margin-top: 12px;
+				margin-bottom: 12px;
 			}
 		}
 		.legal {
@@ -109,12 +160,12 @@
 		}
 	}
 	#entry-button {
-		background-color: $black;
-		border: 2px solid $lightgrey;
+		// background-color: $black;
+		// border: 2px solid $lightgrey;
 		font-size: 2.4rem;
 		text-transform: uppercase;
-		font-family: "futura", sans-serif;
-		color: $white;
+		font-family: "Mazda Bold", sans-serif;
+		color: $black;
 		display: block;
 		margin: 0 auto;
 		margin-top: 20px;
