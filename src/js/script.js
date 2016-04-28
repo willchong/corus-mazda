@@ -61,7 +61,7 @@ $(document).ready(function() {
 		$('.nav-button[data-link="enter"]').parent().addClass('underline');
 	}
 
-	$('#contacted').on('change', function() {
+	$('#Optin').on('change', function() {
 		if ($(this).prop('checked')) {
 			$('#dealer,#vehicles,label[for="dealer"],label[for="vehicles"]').show();
 		} else {
